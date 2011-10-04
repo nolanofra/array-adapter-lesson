@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/row_container"
+	android:padding="5px" android:layout_height="wrap_content">
+	<TableRow>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/capitalLabel"
+			android:text="@string/capital_label" android:textColor="@color/green"></TextView>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_toRightOf="@+id/capitalLabel"
+			android:layout_alignParentRight="true" android:paddingLeft="10px"
+			android:text="city" android:textColor="@color/blue"
+			android:id="@+id/capital"></TextView>
+	</TableRow>
+	<TableRow>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_below="@+id/capitalLabel"
+			android:id="@+id/countryLabel" android:text="@string/country_label"
+			android:textColor="@color/green"></TextView>
+		<TextView android:layout_height="wrap_content"
+			android:layout_below="@+id/capital" android:layout_width="wrap_content"
+			android:layout_toRightOf="@+id/countryLabel"
+			android:layout_alignParentRight="true" android:paddingLeft="10px"
+			android:text="default_value" android:textColor="@color/blue"
+			android:id="@+id/country"></TextView>
+	</TableRow>
+</TableLayout>
