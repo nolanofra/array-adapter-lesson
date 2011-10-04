@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CustomArrayAdapterTestActivity!</string>
+    <string name="app_name">CustomArrayAdapterTest</string>
+	<string name="capital_label">City:</string>
+	<string name="country_label">Country:</string>
+</resources>
